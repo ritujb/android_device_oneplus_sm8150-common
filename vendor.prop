@@ -150,19 +150,8 @@ persist.dbg.wfc_avail_ovr=1
 # Keystore
 ro.hardware.keystore_desede=true
 
-# Media
-debug.stagefright.ccodec=1
-debug.stagefright.omx_default_rank=0
-
 # NFC
 ro.camera.notify_nfc=1
-
-# PASR
-vendor.power.pasr.enabled=true
-
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
-ro.vendor.scroll.preobtain.enable=false
 
 # Qualcomm System Daemon
 persist.vendor.qcomsysd.enabled=1
