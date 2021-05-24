@@ -684,15 +684,6 @@ vendor/lib64/libswvdec.so
 vendor/bin/opf-service
 vendor/etc/init/init.opf.rc
 
-# PASR - from LA.UM.9.1.r1-09200-SMxxx0.0
--vendor/app/pasrservice/pasrservice.apk|6d4e8bab2426b03231531ec09bce922601b8e8e6
-vendor/bin/hw/vendor.qti.power.pasrmanager@1.0-service|c3ff775c61df0a55186723080db7d136431dcc31
-vendor/etc/init/vendor.qti.power.pasrmanager@1.0-service.rc|b34c1b9179c89cd47adce145bae9a609e5141bc0
-vendor/lib64/hw/vendor.qti.power.pasrmanager@1.0-impl.so|35e6fd568a2752b402645452f0aa528d2b5b0982
-vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so|4f267bd97316c7c726fa8491d7273fe6bcca7686
-vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so|c4a1d2d3d56e9c466bc7f6091a1bad1470fb63d4
-vendor/lib64/vendor.qti.power.pasrmanager@1.0.so|4f71c0d0f9b987c35f9fb64f426db347de1586e7
-
 # PD - from LA.UM.9.1.r1-09200-SMxxx0.0
 vendor/bin/pd-mapper|4eaac0e406abae99bb144509410f2d70873119c4
 vendor/lib64/libpdmapper.so|770d30e070b71ed4737f00cb6656442d1160598d
@@ -702,47 +693,6 @@ vendor/lib64/libpdnotifier.so|f4933f06f020cb3c1b1037fcfc37bf6ee3106e0f
 vendor/bin/pm-proxy|384e0d61670e629a2c5eec1aace3c148b5d55acf
 vendor/bin/pm-service|103510ce9cc410d4f9ee57481d6acbde5a70418a
 vendor/lib64/libperipheral_client.so|0820ee76c595691935b7d8896471ea0b172b0f58
-
-# Perf - from LA.UM.9.1.r1-09200-SMxxx0.0
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|d745ca32b4ddd220bcd21378731fe26c3ce34db8
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|dcbdb6c9af880bb9fcebe315688335b0fc91333c
-vendor/bin/msm_irqbalance|e5706bc0acab394b53fafdc1d7f342f69c6f5649
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
-vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
-vendor/etc/lm/AdaptLaunchFeature.xml|ad4516342729e79a8914762c2737f7faa08b1e9d
-vendor/etc/lm/AppClassifierFeature.xml|102e4291357dd384c0f474d4192370e25123c5e7
-vendor/etc/lm/GameOptimizationFeature.xml|dfdfe5e0b03c2d69afe7dcac87e3963a0b2a8aa8
-vendor/etc/msm_irqbalance.conf|0141a3e34175f62a3ae1f0f44cca94cf7043f2de
-vendor/etc/perf/commonresourceconfigs.xml|108020cfca0c6adf0117074e482d6d2aff7e450f
-vendor/etc/perf/perfboostsconfig.xml|93e57b38e327bfbc174e925d639745e66949229b
-vendor/etc/perf/perfconfigstore.xml|62f780c6f974a62d18a66d0dcee30efb04903512
-vendor/etc/perf/targetconfig.xml|95f511bb4030b2755a0b340814fe41cccac994ab
-vendor/etc/perf/targetresourceconfigs.xml|bcac95b779250981197349f926a84b67e649aa2f
-vendor/lib64/libadaptlaunch.so|bc4b22b2dce10430e7632a83b155141d9a1ab4fc
-vendor/lib64/libappclassifier.so|ee23633c1fbb28e1e745004c04bbb18bc60beb13
-vendor/lib64/libgameoptfeature.so|b2a4c5ea4ed0034ab70638f37cea6f866e16ea92
-vendor/lib64/liblearningmodule.so|db12c1a57377c990673e72b158dc58927352aba9
-vendor/lib64/libmeters-ns.so|a06e41ecdc68d1a65700f384009144dda72786d8
-vendor/lib64/libmeters.so|8f776287ecb04cda39fd3e918bb820021c8870ac
-vendor/lib64/libperfconfig.so|c1e9f25aeb9d891950e7119fcd10b5b17bd3da7b
-vendor/lib64/libperfgluelayer.so|2265d8d44b700dfeeccc72dcff4ceb3b07ce6e22
-vendor/lib64/libperfioctl.so|603cc609b658aae97b1aec4be35ffefb126a5275
-vendor/lib64/libqti-iopd-client.so|2cb87d4c56f29e561ba54bdda001df82bc631615
-vendor/lib64/libqti-iopd-client-vendor.so|7e3e4ca8d06e2a2ea1383b9eedebbd6b7d18177c
-vendor/lib64/libqti-iopd.so|d62b4ade5cc5602d679fe0d50a5a6a1ed4ea9b31
-vendor/lib64/libqti-perfd-client.so|3bc34a04c34be06d501aac539c5c6b5fbdb68df9
-vendor/lib64/libqti-perfd-client-vendor.so|6f05a98ad47e2ce6f0171688921ef7db68429d9e
-vendor/lib64/libqti-perfd.so|099ae56bd72c2f46be5eabe0d5b5eb61156d8433
-vendor/lib64/libqti-util.so|17e335d8bc2920f39e7090fe8f9f60ac82b255b9
-vendor/lib64/libqti-utils.so|af1d50410b81c36de993c48370ac5d419ad46f6d
-vendor/lib64/libqti-util-vendor.so|0f549baeede81667f252a11640c26a054d00becd
-vendor/lib64/libreffeature.so|c7de4fe7702528882d1ea742b3a6323b4553fd4b
-vendor/lib64/libskewknob.so|bc76a05d7ea41c4f35b1dba47e9c66321654023e
-vendor/lib64/vendor.qti.hardware.iop@1.0.so|b7d7efa1c56f3ad202189bafd7e2f77fc55e44fc
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|a850b213d5bee907d638b998a746af2014f2a3f0
-vendor/lib64/vendor.qti.hardware.perf@2.0.so|ad8749a1b0f883f3273161642815117fe50e9928
-vendor/lib64/vendor.qti.hardware.perf@2.1.so|b34264871c6fb1f1607b91badd6bd8b9fcb5f1a3
-vendor/lib64/vendor.qti.hardware.perf@2.2.so|72ca3b9fb5403378d39eacee52d40b3df6289cd1
 
 # Perf
 vendor/etc/powerhint.xml
@@ -907,12 +857,6 @@ vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
-
-# Service Tracker - from LA.UM.9.1.r1-09200-SMxxx0.0
-vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|588775e1bdf6ff00afcd165a8ffa05d98582835f
-vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc|7cf06148da895586c20aab7e6bd01b806d8128b6
--vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml|40b6abd9b4be99dc5722eb60d71ee36764bf4ef3
-vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|90204879ce935fa8d5079c6c5511c9056cdca36f
 
 # Snapdragon Computer Vision Engine - from LA.UM.9.1.r1-09200-SMxxx0.0
 vendor/lib64/libfastcvdsp_stub.so|de764c199026839848cdc803ed5cb2d8a51ad9b9
